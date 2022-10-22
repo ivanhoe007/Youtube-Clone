@@ -1,1 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body {
+    margin: 0;
+}
+
+
+.header{
+    background-color: rgb(255, 255, 255);
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.main{
+    background-color: rgb(0, 0, 0);
+    height: calc(100vh - 70px);
+}
+
+.h_left{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.h_left img{
+    width:100px;
+    margin-left: 15px;
+}
+
+.h_mid{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.h_right span{
+    font-size: 200%;
+    margin: 15px;
+}
+
+.h_right{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.h_left span{
+    font-size: 250%;
+}
+
+.h_mid form{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    border: 1px solid gray;
+}
+
+.h_mid input{
+    width: 500px;
+    border:none;
+    height: 100%;
+}
+
+.h_mid button{
+    border: none;
+    height: 100%;
+}
